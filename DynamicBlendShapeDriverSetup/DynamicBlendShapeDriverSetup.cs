@@ -56,7 +56,7 @@ namespace DynamicBlendShapeDriverSetup
             {
                 if (Config.GetValue(EnableSetupButton))
                 {
-                    var setup = ui.Button("Setup BlendShapes from Renderer", color.Pink);
+                    var setup = ui.Button("Setup BlendShapes from Renderer", color.Cyan);
 
                     setup.LocalPressed += (bttn, data) =>
                     {
@@ -70,7 +70,7 @@ namespace DynamicBlendShapeDriverSetup
 
                 if (Config.GetValue(EnableCleanButton))
                 {
-                    var clean = ui.Button("Clean up broken BlendShape entries", color.Pink);
+                    var clean = ui.Button("Clean up broken BlendShape entries", color.Cyan);
 
                     clean.LocalPressed += (bttn, data) =>
                     {
